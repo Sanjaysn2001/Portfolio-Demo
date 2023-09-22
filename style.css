@@ -1,0 +1,214 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans&family=Playfair+Display:ital@1&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,500&family=Oswald&family=PT+Sans&family=Playfair+Display:ital@1&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans&family=Playfair+Display:ital@1&family=Roboto+Mono:ital@1&display=swap');
+*{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    background-color: #0B0C10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li a{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: #66FCF1;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.overlay{
+    position: absolute;
+    
+    top: 40%;
+    left:45% ;
+}
+section div div h1{
+     color: #091e1a;
+     font-family: 'Imbue', serif;
+     text-shadow: 4px 5px 7px white;
+     width: 22ch;
+     font-size:xx-large;
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+#home::before{
+    content: "";
+    background-image: url('./picandvideo/moon-8226250_1920.jpg');
+    height: 600px;
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 1;
+}
+.main{
+    border: 2px ridge #66FCF1  ;
+    color: #66FCF1;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 1150px;
+    left: 60px;
+    box-shadow:3px 3px 3px   white ;
+
+}
+section div h1:hover{
+    text-shadow: 2px 3px 4px white;
+    
+}
+#about{
+    background-color: black;
+}
+#about h2{
+    color: #66FCF1;
+    font-size: xx-large;
+    text-align:start;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.pic{
+    display: flex;
+    
+    
+}
+.pic img{
+    width: 200px;
+}
+.pic p{
+    text-align: justify;
+    color: #66FCF1;
+    padding: 10px;
+}
+.pic h4{
+    text-align: center;
+    font-size: x-large;
+    font-family:'Imbue', serif ;
+    color: #66FCF1;
+}
+#project{
+    background-color: black;
+}
+#project h2{
+    color: #66FCF1;
+    font-size: xx-large;
+    text-align:center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+   
+    
+}
+.gallery{
+    justify-content: space-between;
+    margin-left: 160px;
+}
+.gallery img{
+    width:350px;
+    height: 200px;
+    margin: 20px;
+    
+    
+
+}
+.gallery img:hover{
+    box-shadow: 0px 0px 15px 10px  #66FCF1;
+    height: 210px;
+    width: 360px;
+}
+#services{
+    background-color: black;
+}
+#services h2{
+    color: #66FCF1;
+    font-size: xx-large;
+    text-align:center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+   
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box{
+    color: #66FCF1;
+    width: 350px;
+    height: 360px;
+    border: 2px double white;
+    margin: 10px;
+    background: linear-gradient(to top,#1F2833,#45A29E);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box:hover{
+
+    background-position: left bottom;
+    border: none;
+    box-shadow: 0px 0px 15px 10px #66FCF1;
+}
+.box img{
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 10px;
+    
+}
+.box h3{
+    text-align: center;
+}
+.box p{
+    text-align: justify;
+    margin: 10px;
+}
+#contact{
+    background-color: black;
+}
+#contact h2{
+    color: #66FCF1;
+    font-size: xx-large;
+    text-align:center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+    margin-right: 400px;
+}
+.input{
+    width: 100%;
+    margin:10px 0
+    
+}
